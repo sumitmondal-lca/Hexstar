@@ -1,0 +1,661 @@
+@media only screen and (max-width: 1419px){
+    .all-programs-section .bottom-content-section .heading-section p {
+        width: 70%;
+    }
+
+    .community-reflections-section .content-block .slider .card {
+        height: 190px;
+    }
+}
+
+@media only screen and (max-width: 1230px){
+
+    .banner-section .left-content h1 span {
+        display: inline-block;
+    }
+
+    header .logo-nav-block .nav-block ul {
+        position: absolute;
+        left: 0;
+        z-index: 999;
+        width: 100%;
+        background-color: #ffffff;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
+
+    header .logo-nav-block .nav-block ul li a {
+        color: #171717;
+        font-weight: 600;
+        padding: 13px 10px;
+    }
+
+    header .stellarnav .menu-toggle span.bars{
+        margin: 0;
+    }
+
+    header .stellarnav .menu-toggle span.bars span {
+        display: block;
+        width: 20px;
+        height: 3px;
+        border-radius: 6px;
+        background: #fcfcfc;
+        margin: 0 0 3.5px;
+    }
+
+    header .logo-nav-block .logo-block {
+        padding-left: 19px;
+        order: 2;
+        max-width: 185px;
+    }
+
+    header .logo-nav-block .nav-block ul li{
+        border-bottom: 1px solid #fff;
+    }
+
+    header .logo-nav-block .nav-block ul li:nth-last-child(1){
+        border: inherit;
+    }
+
+    header .logo-nav-block .nav-block ul li a{
+        width: max-content;
+    }
+
+    header .logo-nav-block .nav-block ul li:nth-child(5)::after {
+        position: inherit;
+        display: none;
+    }
+
+    header .logo-nav-block .nav-block ul li:nth-child(5) a {
+        position: relative;
+    }
+
+    header .logo-nav-block .nav-block ul li:nth-child(5) a::after {
+        content: '';
+        position: absolute;
+        top: -2px;
+        right: 9px;
+        background-image: url('/assets/images/blink_menu.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 35px;
+        height: 17px;
+    }
+
+    header .logo-nav-block .nav-block ul li:nth-child(6)::after {
+        position: inherit;
+        display: none;
+    }
+
+    header .logo-nav-block .nav-block ul li:nth-child(6) a {
+        position: relative;
+    }
+
+    header .logo-nav-block .nav-block ul li:nth-child(6) a::after {
+        content: '';
+        position: absolute;
+        top: -2px;
+        right: 9px;
+        background-image: url('/assets/images/blink_menu.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 39px;
+        height: 16px;
+    }
+
+    .all-programs-section .bottom-content-section .card-section .card{
+        min-height: 446px;
+    }
+}
+
+@media only screen and (max-width: 1036px){
+    .banner-section .left-content h1 {
+        font-size: clamp(2.3125rem, 2.0463rem + 1.4198vw, 3.75rem);
+    }
+
+    .banner-section .left-content p {
+        font-size: 15px;
+    }
+
+    .all-programs-section .top-counter-section .content-wrapper h6 {
+        font-family: inherit;
+        font-size: 26px;
+        color: var(--primary-font-color);
+        font-weight: 700;
+        line-height: 1.3;
+        padding: 0;
+        margin: 0;
+    }
+
+    .all-programs-section .top-counter-section .content-wrapper i {
+        font-size: 72px;
+    }
+
+    .all-programs-section .top-counter-section .content-wrapper i.bi.bi-calendar2-week {
+        font-size: 57px;
+    }
+
+    .community-reflections-section .content-block .slider .card {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .heading-section h3{
+        font-size: clamp(1.875rem, 1.3866rem + 2.6049vw, 3rem);
+    }
+
+    .why-hexStar-section {
+        padding-bottom: 65px;
+    }
+
+    .why-hexStar-section .left-block {
+        position: relative;
+    }
+
+    .why-hexStar-section .left-block img {
+        width: 14%;
+        position: absolute;
+        top: 110px;
+    }
+
+    .why-hexStar-section .right-block {
+        justify-content: center;
+    }
+
+    .why-hexStar-section .right-block img {
+        width: 60%;
+    }
+
+    .explore-cubesat-cits-section .top-img-block .top img {
+        width: 50%;
+    }
+
+    .explore-cubesat-cits-section .top-img-block .bottom img {
+        width: 55%;
+    }
+
+    .explore-cubesat-cits-section .bottom-content-block .middle-block {
+        height: 385px;
+    }
+
+    .explore-cubesat-cits-section .bottom-content-block .right-block {
+        height: 385px;
+    }
+
+    .community-section {
+        margin-bottom: 50px;
+    }
+
+    .community-section::after {
+        top: 420px;
+        height: 53%;
+    }
+
+    /* .community-section .top-part .heading-section {
+        width: 50%;
+    } */
+
+    .community-section .bottom-content .left-block .top-video-block {
+        width: 95%;
+    }
+
+    .community-section .bottom-content .right-block {
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    .community-section .bottom-content .right-block .top-card .card .top h6 {
+       font-size: 17px;
+    }
+
+    .community-section .bottom-content .right-block .top-card .card {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .community-section .bottom-content .right-block .top-card .card .top img {
+        width: 42%;
+    }
+
+    .community-reflections-section .content-block .card .content-wrapper {
+        padding: 40px 14px 10px 14px;
+    }
+
+    .community-section .bottom-content .left-block .bottom-conten{
+        text-align: center;
+    }
+
+    .community-section .bottom-content .left-block .bottom-content h5 {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .community-section .bottom-content .left-block .bottom-content p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .listen-to-your-section .slider-heading-block .heading-section h3 {
+        font-size: clamp(1.375rem, -0.2321rem + 8.5714vw, 1.75rem);
+    }
+
+    .listen-to-your-section {
+        padding-bottom: 110px;
+    }
+
+    .why-hexStar-section .left-block h3 {
+        font-size: clamp(1.875rem, 1.3866rem + 2.6049vw, 3rem);
+    }
+
+    .community-reflections-section .content-block .slider .card {
+        height: 180px;
+    }
+
+    footer .right-logo-block .logo-block {
+        max-width: 300px;
+    }
+
+    footer .right-logo-block .form a {
+        font-size: 14px;
+        padding: 2px 13px;
+    }
+
+    footer .footer-menu-content h6 {
+        font-size: 18px;
+    }
+
+    footer .footer-menu-content ul li a {
+        font-size: 14px;
+    }
+
+    footer .copy-right-block {
+       padding-top: 38px;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .banner-section .right-img-block img {
+        width: 100%;
+    }
+
+    .learn-from-industry-section .bottom-content .slider {  
+        margin-bottom: 37px;
+    }
+
+    .learn-from-industry-section .bottom-content .see-more-btn {
+        font-size: 15px;
+    }
+
+    .learn-from-industry-section .bottom-content .see-more-btn i {
+        font-size: 23px;
+    }
+
+    .learn-from-industry-section {
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .top-announcement-section marquee span {
+        font-size: 13px;
+    }
+
+    .top-announcement-section marquee span i{
+        font-size: 17px;
+    }
+
+    .banner-section .right-img-block img {
+        width: 58%;
+    }
+
+    .banner-section .left-content {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .banner-section .left-content .all-pro-btn {
+        margin: 0 auto;
+    }
+
+    .banner-section::after {
+        width: 100%;
+        height: 70%;
+    }
+
+    .all-programs-section .top-counter-section .content-wrapper i {
+        font-size: 65px;
+    }
+
+    .all-programs-section .top-counter-section .content-wrapper i.bi.bi-calendar2-week {
+        padding-bottom: 10px;
+    }
+
+    .banner-section .left-content h1 {
+        width: 64%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .all-programs-section .bottom-content-section .heading-section p {
+        width: 86%;
+    }
+
+    .all-programs-section .top-counter-section .content-wrapper h6 {
+        font-size: 22px;
+    }
+    .community-reflections-section .content-block .slider .card {
+        height: 200px;
+    }
+    footer .right-logo-block .form{
+        flex-direction: column;
+        align-items: end;
+    }
+    footer .right-logo-block .form input{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 656px){
+    .community-section .top-part .heading-section {
+        width: 85%;
+    }
+
+    .community-section .top-part .button-block ul {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .community-section .top-part .button-block ul li:nth-child(1) {
+        width: 50%;
+    }
+
+    .community-section .top-part .button-block ul li:nth-child(2) {
+        width: 50%;
+        text-align: right;
+    }
+
+    .community-section .top-part .button-block ul li:nth-child(3) {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .community-reflections-section .content-block .slider .card {
+        height: 190px;
+    }
+    
+}
+
+@media only screen and (max-width: 576px){
+    header .d-flex {
+        flex-wrap: wrap;
+    }
+
+    header .logo-nav-block {
+        justify-content: space-between;
+        gap: 0;
+        width: 100%;
+    }
+
+    header .logo-nav-block .logo-block {
+        padding-left: 0;
+        order: 1;
+        max-width: 155px;
+    }
+
+    header .logo-nav-block .nav-block{
+        order: 2;
+    }
+
+    header .right-login-btn-block {
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    header .right-login-btn-block ul li:nth-child(1) a {
+        font-size: 15px;
+    }
+
+    header .right-login-btn-block ul li:nth-child(2) a i {
+        font-size: 17px;
+    }
+
+    header .right-login-btn-block .instructor-btn {
+        font-size: 14px;
+    }
+
+    .banner-section {
+        padding-top: 30px;
+    }
+
+    .banner-section .right-img-block img {
+        width: 68%;
+    }
+
+    .banner-section .left-content h1 {
+        width: 82%;
+        font-size: clamp(1.875rem, 1.7593rem + 0.6173vw, 2.5rem);
+    }
+
+    .banner-section .left-content p {
+        font-size: 14px;
+    }
+
+    .all-programs-section::after {
+        width: 100%;
+        height: 18%;
+    }
+
+    .all-programs-section .top-counter-section .content-wrapper i {
+        font-size: 60px;
+    }
+
+    .all-programs-section .top-counter-section .content-wrapper i.bi.bi-calendar2-week {
+        font-size: 53px;
+    }
+
+    .all-programs-section .top-counter-section .content-wrapper h6 {
+        font-size: 20px;
+    }
+
+    .heading-section p {
+        font-size: 15px;
+    }
+
+    .community-reflections-section {
+        padding: 70px 0 75px 0;
+    }
+
+    .community-section .bottom-content .left-block .top-video-block {
+        width: 100%;
+    }
+
+    .community-section::after {
+        display: none;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+
+    .community-section {
+        padding-bottom: 40px;
+    }
+
+    .listen-to-your-section .slider-heading-block {
+        width: 100%;
+    }
+
+    .why-hexStar-section .right-block img {
+        width: 75%;
+    }
+    footer .right-logo-block .form{
+        flex-direction: row;
+    }
+    footer .right-logo-block .form input{
+        width: 60%;
+    }
+    footer .right-logo-block .form a {
+        font-size: 14px;
+        padding: 5px 13px;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    /* .learn-from-industry-section .bottom-content .content-wrapper {
+        margin-right: 0;
+    } */
+
+    /* .listen-to-your-section .slider-heading-block .slider .content-wrapper {
+        margin-right: 0;
+    } */
+
+    .learn-from-industry-section .bottom-content .content-wrapper .img-block {
+        --w-h: 100px;
+        border: 3px solid var(--primary-color);
+    }
+
+    .learn-from-industry-section .bottom-content .content-wrapper .content .name-btn {
+        font-size: 14px;
+        padding: 6px 0;
+        width: 50%;
+    }
+
+    .learn-from-industry-section .bottom-content .content-wrapper .content span {
+        font-size: 13px;
+    }
+
+    .learn-from-industry-section .bottom-content .content-wrapper .content img {
+        width: 35%;
+    }
+
+    .explore-cubesat-cits-section .bottom-content-block .left-block .content {
+        border: 1px solid var(--white-color);
+        border-radius: 8px;
+        padding: 40px 0 5px 20px;
+    }
+
+    .explore-cubesat-cits-section .bottom-content-block .left-block .content span {
+        font-size: 18px;
+    }
+
+    .explore-cubesat-cits-section .bottom-content-block .left-block .content h5 {
+        font-size: 33px;
+    }
+
+    .explore-cubesat-cits-section .bottom-content-block .left-block .content:nth-child(2) span {
+        font-size: 33px;
+    }
+
+    .explore-cubesat-cits-section .bottom-content-block .left-block .content:nth-child(2) h5 {
+        font-size: 18px;
+    }
+
+    .explore-cubesat-cits-section .bottom-content-block .middle-block {
+        height: 310px;
+        border-radius: 20px;
+    }
+
+    .explore-cubesat-cits-section .bottom-content-block .right-block {
+        height: 310px;
+        border: 3px solid var(--primary-color);
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .why-hexStar-section .left-block img {
+        width: 26%;
+        top: 71px;
+        left: 5px;
+    }
+
+    .why-hexStar-section .right-block img {
+        width: 100%;
+    }
+
+    .community-section .top-part {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .community-section .top-part .heading-section {
+        text-align: left;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .community-section .top-part .heading-section p{
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .community-section .top-part .button-block{
+        width: 100%;
+    }
+
+    .community-section .top-part .button-block ul {
+        flex-wrap: inherit;
+        justify-content: space-between;
+    }
+
+    .community-section .top-part .button-block ul li:nth-child(1) {
+        width: inherit;
+        text-align: inherit;
+        margin-top: 0;
+        margin: 0;
+    }
+    
+    .community-section .top-part .button-block ul li:nth-child(2) {
+        width: inherit;
+        text-align: inherit;
+        margin-top: 0;
+        margin: 0;
+    }
+
+    .community-section .top-part .button-block ul li:nth-child(3) {
+        width: inherit;
+        text-align: inherit;
+        margin-top: 0;
+        margin: 0;
+    }
+
+    .community-reflections-section .content-block .slider .card {
+        height: 220px;
+    }
+
+    footer .copy-right-block span {
+        font-size: 11px;
+    }
+
+}
+
+@media only screen and (max-width: 385px){
+    .banner-section .right-img-block img {
+        width: 80%;
+    }
+
+    .banner-section .left-content h1 {
+        width: 90%;
+    }
+
+    .all-programs-section .bottom-content-section .heading-section p {
+        width: 90%;
+    }
+
+    .banner-section::after {
+        width: 100%;
+        height: 55%;
+    }
+
+    .all-programs-section .top-counter-section .content-wrapper i {
+        font-size: 50px;
+    }
+
+    .all-programs-section .top-counter-section .content-wrapper i.bi.bi-calendar2-week {
+        font-size: 42px;
+    }
+    .community-reflections-section .content-block .slider .card {
+        height: 240px;
+    }
+}
